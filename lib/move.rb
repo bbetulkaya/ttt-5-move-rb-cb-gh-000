@@ -11,12 +11,11 @@ end
 def input_to_index(input)
   input1 = input.to_i
   pos = input1-1
+  return pos
 
 end
 
-def move(board, pos, character="X")
-  board = [" ", " ", " "]
-  def update_array_at_with(array, index, value)
-    array[index] = value
-  end
+def move(board, index, character="X")
+  board[index]=character
+  return board
 end
