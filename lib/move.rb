@@ -7,3 +7,24 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
+
+def input_to_index(input)
+  input1 = input.to_i
+  pos = input1-1
+
+
+end
+
+def move(array, index, character="X")
+  board = [" ", " ", " "]
+  def update_array_at_with(array, index, value)
+    array[index] = value
+  end
+  def number_adder(n)
+  n += 10
+end
+
+def array_adder(a)
+  a << "new thing at the end of the array"
+end
+end
